@@ -5,22 +5,22 @@ title: "PERCEPTRON TUTORIAL"
 # perceptron
 
 > 다수의 신호를 입력으로 받아 하나의 신호를 출력합니다.
-
-1이나 0 두 가지 값을 가질 수 있습니다. 1은 신호가 흐른다, 0은 신호가 흐르지 않는다의 의미를 가집니다.
+> <br/>1이나 0 두 가지 값을 가질 수 있습니다. 1은 신호가 흐른다, 0은 신호가 흐르지 않는다의 의미를 가집니다.
 <br/>
-아래 수식은 입력으로 2개의 신호를 받은 퍼셉트론의 수식입니다.
-<br/>
-<br/>
-x<sub>1</sub>, x<sub>2</sub> : 입력신호
-<br/>w<sub>1</sub>, w<sub>2</sub> : 가중치
-<br/>
-<a href="https://www.codecogs.com/eqnedit.php?latex=y&space;=&space;\left\{\begin{matrix}&space;0\,&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;\leq&space;\Theta&space;)&space;\\&space;1&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;>&space;\Theta&space;)&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y&space;=&space;\left\{\begin{matrix}&space;0\,&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;\leq&space;\Theta&space;)&space;\\&space;1&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;>&space;\Theta&space;)&space;\end{matrix}\right." title="y = \left\{\begin{matrix} 0\, (w_{1}x_{1} + w_{2}x_{2} \leq \Theta ) \\ 1 (w_{1}x_{1} + w_{2}x_{2} > \Theta ) \end{matrix}\right." /></a>
+> 아래 수식은 입력으로 2개의 신호를 받은 퍼셉트론의 수식입니다.
 <br/>
 <br/>
-입력신호가 뉴런에 보내질 때는 각각 고유한 가중치가 곱해집니다. 뉴런에서 보내온 신호의 총합이 정해진 한계를 넘어설 때만 1을 출력합니다. 그 한계를 임계값이라 하며 <a href="https://www.codecogs.com/eqnedit.php?latex=\Theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Theta" title="\Theta" /></a> 기호로 나타냅니다.
+> x<sub>1</sub>, x<sub>2</sub> : 입력신호
+<br/>
+> w<sub>1</sub>, w<sub>2</sub> : 가중치
+<br/>
+> <a href="https://www.codecogs.com/eqnedit.php?latex=y&space;=&space;\left\{\begin{matrix}&space;0\,&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;\leq&space;\Theta&space;)&space;\\&space;1&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;>&space;\Theta&space;)&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/gif.latex?y&space;=&space;\left\{\begin{matrix}&space;0\,&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;\leq&space;\Theta&space;)&space;\\&space;1&space;(w_{1}x_{1}&space;&plus;&space;w_{2}x_{2}&space;>&space;\Theta&space;)&space;\end{matrix}\right." title="y = \left\{\begin{matrix} 0\, (w_{1}x_{1} + w_{2}x_{2} \leq \Theta ) \\ 1 (w_{1}x_{1} + w_{2}x_{2} > \Theta ) \end{matrix}\right." /></a>
 <br/>
 <br/>
-가중치는 그 값이 클수록 강한 신호를 흘려보냅니다.
+> 입력신호가 뉴런에 보내질 때는 각각 고유한 가중치가 곱해집니다. 뉴런에서 보내온 신호의 총합이 정해진 한계를 넘어설 때만 1을 출력합니다. 그 한계를 임계값이라 하며 <a href="https://www.codecogs.com/eqnedit.php?latex=\Theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Theta" title="\Theta" /></a> 기호로 나타냅니다.
+<br/>
+<br/>
+> 가중치는 그 값이 클수록 강한 신호를 흘려보냅니다.
 
 ### 가중치와 편향 도입
 
